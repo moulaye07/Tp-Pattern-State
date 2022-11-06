@@ -4,8 +4,8 @@ import java.awt.*;
 
 public class GreenState extends State {
     // Next state for the Black state:
-    // On a push(), go to "red"
-    // On a pullo, go to "green"
+    // On a push(), go to "black"
+    // On a pullo, go to "blue"
     public void handlePush (Context c) {
         c.setState(new BlackState());
     }
